@@ -1,0 +1,58 @@
+{
+  "name": "redpixecatswebsite",
+  "version": "1.0.0",
+  "description": "Public facing web site for Red Pixel Cats",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": "webpack --config ./webpack.config.js --mode production",
+    "server": "nodemon --exec babel-node src/server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simianhacker/RedPixelCatsWebsite.git"
+  },
+  "keywords": [],
+  "author": "chris@chriscowan.us <Chris Cowan>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/simianhacker/RedPixelCatsWebsite/issues"
+  },
+  "homepage": "https://github.com/simianhacker/RedPixelCatsWebsite#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.15.1",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.3",
+    "prettier": "^1.18.2",
+    "sass": "^1.23.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.141",
+    "@types/react": "^16.9.4",
+    "@types/react-dom": "^16.9.1",
+    "lodash": "^4.17.15",
+    "material-kit-react": "^1.8.0",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
+  }
+}

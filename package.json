@@ -50,7 +50,7 @@
     "@types/lodash": "^4.14.141",
     "@types/react": "^16.9.4",
     "@types/react-dom": "^16.9.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "material-kit-react": "^1.8.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1"
